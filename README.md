@@ -35,7 +35,7 @@ npm install
 npm start
 ```
 
-## Who Baked This?
+## Who Baked This App?
 
 **Pierre-Henry Soria** — a super passionate and enthusiastic software engineer.
 A genuine lover of cheese, coffee, and chocolate.
