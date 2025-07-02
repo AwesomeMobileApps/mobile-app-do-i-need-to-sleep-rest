@@ -1,6 +1,6 @@
 # DO I NEED TO REST?
 
-A React Native Expo app that analyzes your face to determine if you need rest, a nap, or sleep.
+**Do I Need To Rest** is a React Native Expo app that analyzes your face to determine if you need rest, a nap, or sleep.
 
 ## Features
 
@@ -39,13 +39,14 @@ npm start
 
 **Pierre-Henry Soria** — a super passionate and enthusiastic software engineer.
 A genuine lover of cheese, coffee, and chocolate.
-You can reach me at [PH7.me](https://PH7.me).
-
-Enjoying the project? **[Support me with a coffee](https://ko-fi.com/phenry)** — my go-to brew is an almond flat white.
+You can reach me at [pH7.me](https://ph7.me).
 
 [![Pierre-Henry Soria](https://s.gravatar.com/avatar/a210fe61253c43c869d71eaed0e90149?s=200)](https://ph7.me "Pierre-Henry Soria’s personal website")
 
-[![@phenrysay][x-icon]](https://x.com/phenrysay "Follow Me on X") [![YouTube Tech Videos][youtube-icon]](https://www.youtube.com/@pH7Programming "My YouTube Tech Channel") [![pH-7][github-icon]](https://github.com/pH-7 "Follow Me on GitHub")
+
+Enjoying the project? **[Support me with a coffee](https://ko-fi.com/phenry)** — my go-to brew is an almond flat white.
+
+[![YouTube Tech Videos][youtube-icon]](https://www.youtube.com/@pH7Programming "My YouTube Tech Channel") [![pH-7][github-icon]](https://github.com/pH-7 "Follow Me on GitHub") [![@phenrysay][x-icon]](https://x.com/phenrysay "Follow Me on X")
 
 
 ## Tech Stack
@@ -72,7 +73,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+**Do I Need To Rest** is generously distributed under the [MIT License](license.md).
 
 
 <!-- GitHub's Markdown reference links -->
