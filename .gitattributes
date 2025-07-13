@@ -1,0 +1,9 @@
+# Ensure consistent line endings
+* text=auto
+
+# Force LF for shell scripts
+*.sh text eol=lf
+
+# Force specific files to be tracked with exact case
+README.md text
+readme.md export-ignore
