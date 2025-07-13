@@ -18,6 +18,42 @@ export interface RestAnalysisResult {
     secondaryFactor: string;
     recommendation: string;
   };
+  enhancedAnalysis?: FaceAnalysisResult; // Add enhanced face analysis data
+}
+
+// Enhanced types for face analysis
+export interface HealthMetrics {
+  eyeAspectRatio: number;
+  blinkRate: number;
+  eyeStrain: number;
+  facialTension: number;
+  headPose: {
+    pitch: number;
+    yaw: number;
+    roll: number;
+  };
+  skinAnalysis: {
+    pallor: number;
+    darkness: number;
+  };
+  drowsinessIndicators: {
+    heavyEyelids: boolean;
+    slowBlinks: boolean;
+    headDropping: boolean;
+    reducedFacialExpression: boolean;
+  };
+}
+
+export interface FaceAnalysisResult {
+  timestamp: number;
+  faceDetected: boolean;
+  confidence: number;
+  healthMetrics: HealthMetrics;
+  fatigueScore: number;
+  needsRest: boolean;
+  needsSleep: boolean;
+  trend: 'improving' | 'stable' | 'declining';
+  recommendations: string[];
 }
 
 // Types for user settings

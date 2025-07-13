@@ -1,23 +1,38 @@
-# DO I NEED TO REST?
+# 🧠 Do I Need to Sleep/Rest? - Enhanced AI Health Monitor
 
-**Do I Need To Rest** is a React Native Expo app that analyzes your face to determine if you need rest, a nap, or sleep.
+> **Revolutionary face analysis app with real-time fatigue detection and health monitoring**
 
-## Features
+## 🚀 **Major Enhancements & Features**
 
-- Quick 2-second video recording of your face
-- AI-powered analysis of fatigue signs
-- Clear recommendations based on your energy level
-- History tracking with visual charts
-- Share your results with friends
-- Customizable settings
+### 🔬 **Advanced AI Face Analysis**
+- **Real-time face detection** using TensorFlow.js with 468 facial landmarks
+- **Eye Aspect Ratio (EAR) calculation** for precise blink detection and fatigue assessment
+- **Facial landmark analysis** with medical-grade accuracy
+- **Head pose estimation** (pitch, yaw, roll) for posture-related fatigue
+- **Skin condition analysis** detecting pallor and under-eye darkness
+- **Multi-frame video analysis** for enhanced accuracy
+
+### 📊 **Comprehensive Health Metrics**
+- **Fatigue Scoring** (0-100% with weighted algorithm)
+- **Eye Strain Monitoring** with progressive indicators
+- **Blink Rate Analysis** (normal: 15-20 blinks/minute)
+- **Facial Tension Assessment** across forehead, jaw, and mouth
+- **Drowsiness Indicators** (heavy eyelids, slow blinks, head dropping)
+- **Trend Analysis** tracking patterns over time
+
+### 🎯 **Smart AI Recommendations**
+- **Contextual suggestions** based on real-time analysis
+- **Critical fatigue alerts** for immediate attention (>85% fatigue)
+- **Progressive recommendations** from eye breaks to power naps
+- **Posture improvement** guidance for workspace ergonomics
 
 ## How It Works
 
-1. The app guides you to record a brief video of your face
-2. AI analyzes your facial features, including eyes, skin, and expressions
-3. Based on the analysis, the app determines your energy level
-4. You get a personalized recommendation whether to rest, sleep, or keep going
-5. Your results are saved so you can track your energy levels over time
+1. **Quick Analysis**: Record a brief video or enable live monitoring
+2. **AI Processing**: Advanced facial analysis using 468 landmark points
+3. **Health Assessment**: Comprehensive fatigue and wellness scoring
+4. **Smart Recommendations**: Personalized suggestions based on your state
+5. **Trend Tracking**: Monitor your energy patterns over time
 
 ## Installation
 
