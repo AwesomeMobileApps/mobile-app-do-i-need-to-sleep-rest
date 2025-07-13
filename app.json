@@ -20,11 +20,12 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.yourcompany.doineedneedtorest",
+      "bundleIdentifier": "me.ph7.doineedneedtorest",
       "buildNumber": "1.0.0",
       "infoPlist": {
         "NSCameraUsageDescription": "This app uses the camera to analyze your face for fatigue signs.",
-        "NSMicrophoneUsageDescription": "This app uses the microphone for video recording."
+        "NSMicrophoneUsageDescription": "This app uses the microphone for video recording.",
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
@@ -32,11 +33,13 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#4A90E2"
       },
-      "package": "com.yourcompany.doineedneedtorest",
+      "package": "me.ph7.doineedneedtorest",
       "versionCode": 1,
       "permissions": [
         "CAMERA",
-        "RECORD_AUDIO"
+        "RECORD_AUDIO",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
       ]
     },
     "web": {
@@ -49,6 +52,11 @@
           "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera to analyze your fatigue level."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7df98f85-0c8b-4dbb-8eb2-50fba2cab418"
+      }
+    }
   }
 }
