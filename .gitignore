@@ -45,3 +45,11 @@ yarn-error.*
 # Build artifacts
 ios/build/
 android/app/build/
+
+# Filename casing conflicts (macOS case-insensitive filesystem)
+readme.md
+README_TEMP.md
+
+# Specific EAS Build conflict files
+**/readme.md
+**/README_TEMP.md
