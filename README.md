@@ -52,8 +52,7 @@ npm start
 
 ## Who Baked This App?
 
-**Pierre-Henry Soria** — a super passionate and enthusiastic software engineer.
-A genuine lover of cheese, coffee, and chocolate.
+**Pierre-Henry Soria**. A passionate and enthusiastic senior AI engineer. Genuine lover of cheese, coffee, and dark chocolate.
 You can reach me at [pH7.me](https://ph7.me).
 
 [![Pierre-Henry Soria](https://s.gravatar.com/avatar/a210fe61253c43c869d71eaed0e90149?s=200)](https://ph7.me "Pierre-Henry Soria’s personal website")
@@ -95,4 +94,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 [x-icon]: https://img.shields.io/badge/x-000000?style=for-the-badge&logo=x
 [youtube-icon]: https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white
 [github-icon]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
-
