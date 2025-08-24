@@ -217,6 +217,13 @@ export default function HomeScreen({ navigation }: HomeScreenProps) {
 
         <TouchableOpacity
           style={styles.footerButton}
+          onPress={() => navigation.navigate('DreamTracker')}
+        >
+          <Text style={styles.footerButtonText}>Dreams</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity
+          style={styles.footerButton}
           onPress={() => navigation.navigate('Settings')}
         >
           <Text style={styles.footerButtonText}>Settings</Text>
@@ -224,57 +231,6 @@ export default function HomeScreen({ navigation }: HomeScreenProps) {
       </View>
     </View>
   );
-}
-
-return (
-  <View style={styles.container}>
-    <View style={styles.header}>
-      <Text style={styles.title}>DO I NEED TO REST?</Text>
-      <Text style={styles.subtitle}>Quick analysis of your energy levels</Text>
-    </View>
-
-    <View style={styles.contentContainer}>
-      <TouchableOpacity
-        style={styles.recordButton}
-        onPress={() => navigation.navigate('RecordVideo')}
-      >
-        <CameraIcon width={30} height={30} color="white" />
-        <Text style={styles.recordButtonText}>Check Now</Text>
-      </TouchableOpacity>
-
-      {latestResult && (
-        <View style={styles.lastResultContainer}>
-          <Text style={styles.lastResultTitle}>Your last check:</Text>
-          <Text style={styles.lastResultTime}>
-            {new Date(latestResult.timestamp).toLocaleString()}
-          </Text>
-          <Text style={[
-            styles.lastResultMessage,
-            { color: latestResult.needsRest ? '#FF6347' : '#32CD32' }
-          ]}>
-            {latestResult.message}
-          </Text>
-        </View>
-      )}
-    </View>
-
-    <View style={styles.footer}>
-      <TouchableOpacity
-        style={styles.footerButton}
-        onPress={() => navigation.navigate('History')}
-      >
-        <Text style={styles.footerButtonText}>History</Text>
-      </TouchableOpacity>
-
-      <TouchableOpacity
-        style={styles.footerButton}
-        onPress={() => navigation.navigate('Settings')}
-      >
-        <Text style={styles.footerButtonText}>Settings</Text>
-      </TouchableOpacity>
-    </View>
-  </View>
-);
 }
 
 const styles = StyleSheet.create({

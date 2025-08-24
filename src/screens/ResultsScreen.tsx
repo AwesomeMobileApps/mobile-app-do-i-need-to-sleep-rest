@@ -1,10 +1,11 @@
 import React from 'react';
 import { StyleSheet, View, Text, TouchableOpacity, Share, ScrollView } from 'react-native';
 import { RouteProp } from '@react-navigation/native';
-import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { RootStackParamList, RestAnalysisResult } from '../types';
-import { formatDate, getEnergyColor } from '../utils/helpers';
 import * as Haptics from 'expo-haptics';
+import { NativeStackNavigationProp } from '@react-navigation/native-stack';
+
+import { RootStackParamList } from '../types';
+import { formatDate, getEnergyColor } from '../utils/helpers';
 
 type ResultsScreenProps = {
   route: RouteProp<RootStackParamList, 'Results'>;

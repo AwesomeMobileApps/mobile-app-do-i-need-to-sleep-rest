@@ -63,6 +63,43 @@ export interface UserSettings {
   aiSensitivity: number; // 0-100
 }
 
+// Dream tracking types
+export interface DreamEntry {
+  id: string;
+  title: string;
+  description: string;
+  date: number;
+  tags: string[];
+  mood: 'peaceful' | 'exciting' | 'mysterious' | 'scary' | 'romantic' | 'adventurous';
+  lucidity: number; // 0-100 (how lucid the dream was)
+  vividity: number; // 0-100 (how vivid the dream was)
+  emotions: string[];
+  characters: string[];
+  locations: string[];
+  soundscape?: {
+    type: 'nature' | 'urban' | 'cosmic' | 'ocean' | 'forest' | 'rain';
+    url: string;
+    duration: number;
+  };
+  generatedImage?: {
+    url: string;
+    style: 'abstract' | 'realistic' | 'fantasy' | 'surreal';
+    prompt: string;
+  };
+  sleepQuality: number; // 0-100
+  dreamLength: 'short' | 'medium' | 'long';
+}
+
+export interface DreamAnalysis {
+  commonThemes: string[];
+  emotionalPatterns: { emotion: string; frequency: number }[];
+  sleepQualityTrend: 'improving' | 'stable' | 'declining';
+  averageLucidity: number;
+  averageVividity: number;
+  dreamFrequency: number; // dreams per week
+  recommendations: string[];
+}
+
 // Interface for navigation params
 export type RootStackParamList = {
   Home: undefined;
@@ -70,4 +107,9 @@ export type RootStackParamList = {
   Results: { result: RestAnalysisResult };
   History: undefined;
   Settings: undefined;
+  CameraVerification: undefined;
+  DreamTracker: undefined;
+  AddDream: undefined;
+  DreamDetail: { dreamId: string };
+  DreamAnalysis: undefined;
 }; 
