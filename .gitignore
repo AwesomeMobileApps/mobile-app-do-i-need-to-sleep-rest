@@ -53,3 +53,5 @@ README_TEMP.md
 # Specific EAS Build conflict files
 **/readme.md
 **/README_TEMP.md
+ios/
+android/
