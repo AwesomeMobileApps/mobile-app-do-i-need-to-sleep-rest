@@ -57,10 +57,9 @@ You can reach me at [pH7.me](https://ph7.me).
 
 [![Pierre-Henry Soria](https://s.gravatar.com/avatar/a210fe61253c43c869d71eaed0e90149?s=200)](https://ph7.me "Pierre-Henry Soria’s personal website")
 
-
 Enjoying the project? **[Support me with a coffee](https://ko-fi.com/phenry)** — my go-to brew is an almond flat white.
 
-[![YouTube Tech Videos][youtube-icon]](https://www.youtube.com/@pH7Programming "My YouTube Tech Channel") [![pH-7][github-icon]](https://github.com/pH-7 "Follow Me on GitHub") [![@phenrysay][x-icon]](https://x.com/phenrysay "Follow Me on X")
+[![YouTube Tech Videos][youtube-icon]](https://www.youtube.com/@pH7Programming "My YouTube Tech Channel") [![pH-7][github-icon]](https://github.com/pH-7 "Follow Me on GitHub") [![@phenrysay][x-icon]](https://x.com/phenrysay "Follow Me on X") [![BlueSky][bsky-icon]](https://bsky.app/profile/ph7s.bsky.social "Follow Me on BlueSky")
 
 
 ## Tech Stack
@@ -92,5 +91,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 <!-- GitHub's Markdown reference links -->
 [x-icon]: https://img.shields.io/badge/x-000000?style=for-the-badge&logo=x
+[bsky-icon]: https://img.shields.io/badge/BlueSky-00A8E8?style=for-the-badge&logo=bluesky&logoColor=white
 [youtube-icon]: https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white
 [github-icon]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
